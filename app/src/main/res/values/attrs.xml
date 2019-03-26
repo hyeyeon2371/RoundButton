@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundButton" parent="android.widget.Button">
+        <attr name="txt" format="reference|string"/>
+
+        <attr name="txtColor" format="reference|color"/>
+        <attr name="bgColor" format="reference|color"/>
+
+        <attr name="txtSize" format="reference|dimension"/>
+        <attr name="radius" format="reference|dimension"/>
+    </declare-styleable>
+</resources>

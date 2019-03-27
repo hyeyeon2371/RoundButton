@@ -1,4 +1,5 @@
 # Android RoundButton
+<img src ="https://img.shields.io/badge/version-0.0.4-brightgreen.svg"/>
 
 ## Gradle
 ``` gradle

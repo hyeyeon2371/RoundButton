@@ -30,3 +30,6 @@ dependencies {
 
 ## Screenshot
 <img src="https://user-images.githubusercontent.com/42951723/55060686-56f96b80-50b5-11e9-82dc-92d3c04541fd.PNG" width="200"/>
+
+## License 
+<a href="https://github.com/hyeyeon2371/RoundButton/blob/master/LICENSE">MIT</a>

@@ -33,7 +33,8 @@ class RoundButton : AppCompatButton {
 
         // string
         txt = typeArray?.getString(R.styleable.RoundButton_txt) ?: resources.getString(R.string.default_txt)
-
+        text = txt
+        
         // color
         txtColor =
             typeArray?.getColor(R.styleable.RoundButton_txtColor, resources.getColor(R.color.default_txtColor))
@@ -44,6 +45,7 @@ class RoundButton : AppCompatButton {
             R.styleable.RoundButton_txtSize,
             resources.getDimension(R.dimen.default_txtSize)
         )
+        textSize = convertPixelToDp(txtSize!!).toFloat()
         radius = typeArray?.getDimension(
             R.styleable.RoundButton_radius,
          resources.getDimension(R.dimen.default_radius)
